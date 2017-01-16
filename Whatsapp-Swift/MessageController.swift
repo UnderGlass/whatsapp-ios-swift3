@@ -91,7 +91,7 @@ class MessageController:UIViewController, InputbarDelegate, MessageGatewayDelega
 
     // MARK - Actions
 
-    @IBAction func userDidTapScreen(sender:AnyObject) {
+    @IBAction func userDidTapScreen(_ sender: Any) {
         self.inputbar.inputResignFirstResponder()
     }
 
